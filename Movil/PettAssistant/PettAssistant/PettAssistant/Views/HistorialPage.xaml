@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PettAssistant.Views.HistorialPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20,50,15,10">
+            <Label Text="Metodos de pago" FontSize="30" FontAttributes="Bold"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+            <Label Text="Elige como quieres pagar" FontSize="20" FontAttributes="None"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+
+            <ScrollView Margin="0,10,0,10">
+
+                <StackLayout>
+
+                <!--Cards de Cuidados-->
+                <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False"
+                    Margin="0,30,0,0" Padding="0,15,0,15">
+                    <StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="20, 0, 15, 5">
+                        <StackLayout VerticalOptions="CenterAndExpand" >
+                            <Label Text="Desde: Lunes, 16 de Octubre, 06:30 p.m." FontSize="18" />
+                            <Label Text="Hasta: Miercoles, 18 de Octubre, 07:38 p.m." FontSize="18" />
+                            <Label Text="Cuidador: Cristobal Cristobal Colón" FontSize="23" FontAttributes="Bold"/>
+                            <Label Text="Cuidador: Cristobal Cristobal Colón" FontSize="18" FontAttributes="Bold"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="20, 5, 15, 5">
+                        <Label Text="S/ 300" FontSize="18" />
+                    </StackLayout>
+                    </StackLayout>
+                </Frame>
+                
+                <!--Ejemplos para vista, se aplicará Recycler-->
+
+                    <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False"
+                        Margin="0,15,0,0" Padding="0,15,0,15">
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="20, 0, 15, 5">
+                                <StackLayout VerticalOptions="CenterAndExpand" >
+                                    <Label Text="Desde: Lunes, 16 de Octubre, 06:30 p.m." FontSize="18" />
+                                    <Label Text="Hasta: Miercoles, 18 de Octubre, 07:38 p.m." FontSize="18" />
+                                    <Label Text="Cuidador: Cristobal Cristobal Colón" FontSize="23" FontAttributes="Bold"/>
+                                    <Label Text="Cuidador: Cristobal Cristobal Colón" FontSize="18" FontAttributes="Bold"/>
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="20, 5, 15, 5">
+                                <Label Text="S/ 300" FontSize="18" />
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False"
+                        Margin="0,15,0,0" Padding="0,15,0,15">
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="20, 0, 15, 5">
+                                <StackLayout VerticalOptions="CenterAndExpand" >
+                                    <Label Text="Desde: Lunes, 16 de Octubre, 06:30 p.m." FontSize="18" />
+                                    <Label Text="Hasta: Miercoles, 18 de Octubre, 07:38 p.m." FontSize="18" />
+                                    <Label Text="Cuidador: Cristobal Cristobal Colón" FontSize="23" FontAttributes="Bold"/>
+                                    <Label Text="Cuidador: Cristobal Cristobal Colón" FontSize="18" FontAttributes="Bold"/>
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="20, 5, 15, 5">
+                                <Label Text="S/ 300" FontSize="18" />
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False"
+                        Margin="0,15,0,0" Padding="0,15,0,15">
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="20, 0, 15, 5">
+                                <StackLayout VerticalOptions="CenterAndExpand" >
+                                    <Label Text="Desde: Lunes, 16 de Octubre, 06:30 p.m." FontSize="18" />
+                                    <Label Text="Hasta: Miercoles, 18 de Octubre, 07:38 p.m." FontSize="18" />
+                                    <Label Text="Cuidador: Cristobal Cristobal Colón" FontSize="23" FontAttributes="Bold"/>
+                                    <Label Text="Cuidador: Cristobal Cristobal Colón" FontSize="18" FontAttributes="Bold"/>
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="20, 5, 15, 5">
+                                <Label Text="S/ 300" FontSize="18" />
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+
+
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

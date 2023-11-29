@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PettAssistant.Views.PMascotaPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="White" CornerRadius="17" BorderColor="#1BBCB6" HasShadow="False"
+                Margin="20,30,20,10" Padding="0,0,0,0">
+
+                <StackLayout HorizontalOptions="CenterAndExpand" Margin="20,20,20,10" Padding="0,15,0,15">
+                    <!--Imagen de Mascota-->
+                    <Image Source="icon_p1" Aspect="AspectFit" HeightRequest="140" Margin="0,0,0,0"/>
+                    <Label Text="Hola, soy Ruffalo" FontSize="30" FontAttributes="Bold"  LineBreakMode="NoWrap" HorizontalOptions="CenterAndExpand"/>
+
+                    <!--Atributos de la mascota-->
+                    <StackLayout Margin="10,15,10,10">
+                        <Label Text="Especie: GATO" FontSize="22" FontAttributes="None"/>
+                        <Label Text="Tipo de alimentación: SOLIDA" FontSize="22" FontAttributes="None"/>
+                        <Label Text="Tiempo de vida: 4 MESES" FontSize="22" FontAttributes="None"/>
+                        <Label Text="Caracter: AGRESIVO" FontSize="22" FontAttributes="None"/>
+
+                    <!--Descripción de la mascota-->
+                        <Label Text="Descipción: " FontSize="22" FontAttributes="None" Margin="0,10,0,0"/>
+                        <ScrollView Margin="10,0,10,20" >
+                            <Label Text="Ruffalo es un gato de aspecto imponente y pelaje esponjoso que refleja su condición de sobrepeso. Sus suaves y brillantes tonos de color gris oscuro y blanco forman una combinación armoniosa que resalta su belleza felina. Sin embargo, su expresión facial revela señales de estrés y ansiedad.
+                                         A simple vista, se puede notar que Ruffalo es un gato de mayor tamaño y presenta algunos Ruffalo es un gato de aspecto imponente y pelaje esponjoso que refleja su condición de sobrepeso. Sus suaves y brillantes tonos de color gris oscuro y blanco forman una combinación armoniosa que resalta su belleza felina. Sin embargo, su expresión facial revela señales de estrés y ansiedad.
+                                         A simple vista, se puede notar que Ruffalo es un gato de mayor tamaño y presenta algunos 
+                                   Ruffalo es un gato de aspecto imponente y pelaje esponjoso que refleja su condición de sobrepeso. Sus suaves y brillantes tonos de color gris oscuro y blanco forman una combinación armoniosa que resalta su belleza felina. Sin embargo, su expresión facial revela señales de estrés y ansiedad.
+                                         A simple vista, se puede notar que Ruffalo es un gato de mayor tamaño y presenta algunos Ruffalo es un gato de aspecto imponente y pelaje esponjoso que refleja su condición de sobrepeso. Sus suaves y brillantes tonos de color gris oscuro y blanco forman una combinación armoniosa que resalta su belleza felina. Sin embargo, su expresión facial revela señales de estrés y ansiedad.
+                                         A simple vista, se puede notar que Ruffalo es un gato de mayor tamaño y presenta algunos " 
+                                   FontSize="Body" FontAttributes="None"/>
+                        </ScrollView>
+                    </StackLayout>
+                    <!--Boton de Cerrar Sesión-->
+                    <StackLayout VerticalOptions="EndAndExpand" >
+                        <Button Text="Actualizar" BackgroundColor="#252F48" FontSize="16" TextColor="White" WidthRequest="150" HeightRequest="40" HorizontalOptions="End" CornerRadius="15" />
+                    </StackLayout>
+                </StackLayout>
+                  
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

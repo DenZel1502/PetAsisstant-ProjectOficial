@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PettAssistant.Views.InicioPage">
+    <Grid RowDefinitions="*,*" BackgroundColor="#EDEDEF">
+        
+        <StackLayout Grid.Row="1" Margin="0,-200,0,10 ">
+            <Image Source="pet.png" WidthRequest="130" HeightRequest="130" />
+        </StackLayout>
+
+        
+        <StackLayout  Margin="0,385,0,10">
+
+            <Button Text="Iniciar Sesion" BackgroundColor="#252F48" TextColor="White" WidthRequest="410" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30"/>
+            <Button Text="Registrarse" BackgroundColor="#1BBCB6" TextColor="White" WidthRequest="410" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30"/>
+
+        </StackLayout>
+        
+        
+        <StackLayout Grid.Row="1">
+            <Label Text="“Tu mascota en buenas manos, en cualquier momento y lugar”" Margin="0,315,0,10" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

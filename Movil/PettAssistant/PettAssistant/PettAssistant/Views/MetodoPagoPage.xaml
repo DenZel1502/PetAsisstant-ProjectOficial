@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PettAssistant.Views.MetodoPagoPage">
+    <ContentPage.Content>
+        <StackLayout Margin="30,50,15,30">
+            <Label Text="Metodos de pago" FontSize="30" FontAttributes="Bold"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+            <Label Text="Elige como quieres pagar" FontSize="20" FontAttributes="None"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+
+            <!--Yape-->
+            <StackLayout Margin="0,50,20,0">
+                <StackLayout Orientation="Horizontal">
+                    <!--Imagen-->
+                    <Frame BackgroundColor="Transparent" BorderColor="Black" CornerRadius="20">
+                        <Image Source="cuidador" HeightRequest="50" />
+                    </Frame>
+                    <!--Texto-->
+                    <StackLayout Margin="10,23,0,10">
+                        <Label Text="Yape" FontSize="23"/>
+                        <Label Text="Escanear el QR y ¡Listo!"/>
+                    </StackLayout>
+                    <!--Boton-->
+                    <RadioButton HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+
+            <Image Source="line" Aspect="AspectFit" Margin="0,30,0,0"/>
+
+            <!--Efectivo-->
+            <StackLayout Margin="0,30,20,0">
+                <StackLayout Orientation="Horizontal">
+                    <!--Imagen-->
+                    <Frame BackgroundColor="Transparent" BorderColor="Black" CornerRadius="20">
+                        <Image Source="cuidador" HeightRequest="50" />
+                    </Frame>
+                    <!--Texto-->
+                    <StackLayout Margin="10,23,0,10">
+                        <Label Text="Efectivo" FontSize="23"/>
+                        <Label Text="Realizar el pago de manera directa"/>
+                    </StackLayout>
+                    <!--Boton-->
+                    <RadioButton HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+
+            <Image Source="line" Aspect="AspectFit" Margin="0,30,0,0"/>
+
+            <!--Plin-->
+            <StackLayout Margin="0,30,20,0">
+                <StackLayout Orientation="Horizontal">
+                    <!--Imagen-->
+                    <Frame BackgroundColor="Transparent" BorderColor="Black" CornerRadius="20">
+                        <Image Source="cuidador" HeightRequest="50" />
+                    </Frame>
+                    <!--Texto-->
+                    <StackLayout Margin="10,23,0,10">
+                        <Label Text="Plin" FontSize="23"/>
+                        <Label Text="Escanear el QR y ¡Listo!"/>
+                    </StackLayout>
+                    <!--Boton-->
+                    <RadioButton HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

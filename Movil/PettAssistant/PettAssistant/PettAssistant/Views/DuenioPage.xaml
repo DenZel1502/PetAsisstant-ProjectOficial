@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PettAssistant.Views.DuenioPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--Pefil del Dueño-->
+            <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False"
+                Margin="20,30,20,10" Padding="0,15,0,15">
+                <StackLayout Orientation="Horizontal" Margin="20, 0, 15, 5">
+                    <StackLayout>
+                        <Image Source="icon_p1" Aspect="AspectFit" Margin="6,15,6,0"/>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="CenterAndExpand" >
+                        <Label Text="Denzel Zuñiga N." FontSize="30" FontAttributes="Bold"  LineBreakMode="NoWrap"/>
+                        <Label Text="Denzel@gmail.com" FontSize="18" />
+                        <Label Text="Celular: 999-999-999" FontSize="18" />
+                        <Label Text="Distrito: San Juan de Miraflores" FontSize="18" />
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            
+            <!--Editor de datos-->
+            <StackLayout Margin="30,10,15,10">
+                <Label Text="Editar Datos" FontSize="30" FontAttributes="Bold"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+                <Label Text="Toda la información personal" FontSize="20" FontAttributes="None"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+
+                <ScrollView Margin="0,20,0,0">
+
+                    <StackLayout>
+                    <!--Inputs Nombres-->
+                    <StackLayout Margin="5,13,15,0" Padding="0,0,0,0">
+                        <Label Text="Nombre" FontSize="20" FontAttributes="None"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+                        <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False" Padding="10,5,10,10">
+                            <Entry Placeholder="Denzel Jesús" Background="Transparent"/>
+                        </Frame>
+                    </StackLayout>
+
+                    <!--Inputs Apellidos-->
+                    <StackLayout Margin="5,10,15,0" Padding="0,0,0,0">
+                        <Label Text="Apellidos" FontSize="20" FontAttributes="None"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+                        <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False" Padding="10,5,10,10">
+                            <Entry Placeholder="Zuñiga Noriega" Background="Transparent"/>
+                        </Frame>
+                    </StackLayout>
+
+                    <!--Inputs Celular-->
+                    <StackLayout Margin="5,10,15,0" Padding="0,0,0,0">
+                        <Label Text="Numero telefonico" FontSize="20" FontAttributes="None"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+                        <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False" Padding="10,5,10,10">
+                            <Entry Placeholder="Zuñiga Noriega" Background="Transparent"/>
+                        </Frame>
+                    </StackLayout>
+
+                    <!--Inputs Distrito-->
+                    <StackLayout Margin="5,10,15,0" Padding="0,0,0,0">
+                         <Label Text="Distrito" FontSize="20" FontAttributes="None"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+                         <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False" Padding="10,5,10,10">
+                             <Entry Placeholder="San Juan de Miraflores" Background="Transparent"/>
+                         </Frame>
+                    </StackLayout>
+
+                    <!--Inputs Correo-->
+                    <StackLayout Margin="5,10,15,0" Padding="0,0,0,0">
+                        <Label Text="Correo electronico" FontSize="20" FontAttributes="None"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+                        <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False" Padding="10,5,10,10">
+                                <Entry Placeholder="Denzel@gmail.com" Background="Transparent"/>
+                        </Frame>
+                    </StackLayout>
+
+                    </StackLayout>
+
+                </ScrollView>
+              
+            </StackLayout>
+
+
+            <!--Boton de Cerrar Sesión-->
+            <StackLayout VerticalOptions="EndAndExpand" Margin="0,0,0,20">
+                <Button Text="Actualizar" BackgroundColor="#252F48" FontSize="19" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="15" />
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

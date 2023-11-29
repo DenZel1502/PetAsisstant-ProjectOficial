@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PettAssistant.Views.MenuPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Image Source="fondo_2.png" Aspect="AspectFill" Grid.RowSpan="2" />
+
+        <!-- Resto de tu contenido -->
+
+        <StackLayout Grid.Row="1" Margin="0,120,0,10 ">
+
+            <Image Source="pet.png" WidthRequest="200"/>
+
+            <Button Text="Soy Dueño" BackgroundColor="#1BBCB6" TextColor="White" WidthRequest="410" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30"/>
+            <Button Text="Soy Cuidador" BackgroundColor="#D16D79" TextColor="White" WidthRequest="410" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30"/>
+
+
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>
