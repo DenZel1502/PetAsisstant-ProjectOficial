@@ -22,7 +22,7 @@
                     <Image Source="icon_p1" Aspect="AspectFit" Margin="10"/>
                 </StackLayout>
                 <StackLayout VerticalOptions="CenterAndExpand" >
-                    <Label Text="Nombre de Usuario" FontSize="30" FontAttributes="Bold"  LineBreakMode="NoWrap"/>
+                    <Label Text="Denzel Zuñiga" FontSize="30" FontAttributes="Bold"  LineBreakMode="NoWrap"/>
                     <Label Text="Correo" FontSize="18" FontAttributes="Bold"  LineBreakMode="NoWrap"/>
                 </StackLayout>
             </StackLayout>

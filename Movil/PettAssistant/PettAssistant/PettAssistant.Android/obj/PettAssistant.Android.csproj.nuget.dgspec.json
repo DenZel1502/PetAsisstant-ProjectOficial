@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\PettAssistant.Android.csproj": {}
+    "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\PettAssistant.Android.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\PettAssistant.Android.csproj": {
+    "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\PettAssistant.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\PettAssistant.Android.csproj",
+        "projectUniqueName": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\PettAssistant.Android.csproj",
         "projectName": "PettAssistant.Android",
-        "projectPath": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\PettAssistant.Android.csproj",
+        "projectPath": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\PettAssistant.Android.csproj",
         "packagesPath": "C:\\Users\\Denzel\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\obj\\",
+        "outputPath": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj": {
-                "projectPath": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj"
+              "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj": {
+                "projectPath": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj"
               }
             }
           }
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj": {
+    "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj",
+        "projectUniqueName": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj",
         "projectName": "PettAssistant",
-        "projectPath": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj",
+        "projectPath": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj",
         "packagesPath": "C:\\Users\\Denzel\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\obj\\",
+        "outputPath": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

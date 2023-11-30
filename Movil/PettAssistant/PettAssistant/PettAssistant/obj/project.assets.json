@@ -579,11 +579,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj",
+      "projectUniqueName": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj",
       "projectName": "PettAssistant",
-      "projectPath": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj",
+      "projectPath": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj",
       "packagesPath": "C:\\Users\\Denzel\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\obj\\",
+      "outputPath": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

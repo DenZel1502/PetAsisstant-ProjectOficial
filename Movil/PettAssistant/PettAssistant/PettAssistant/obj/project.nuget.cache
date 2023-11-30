@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QoHcmu/wp6Hkj/rTDVkTB1uVouI6tQjkkp6hUoJjBvPfKvZYA6MLNPg6RYfolfdeEVt5tPCioXlo4dNwtW8LCA==",
+  "dgSpecHash": "1kt5fiMtzsVWvbcOnCjk8YY+aQ69p5/DK9/JxtUR7fwEwt3vM7hL6iNJWSOOyANP52Yet8t0pTyQ2h8RuUlulQ==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj",
+  "projectFilePath": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant\\PettAssistant.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Denzel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Denzel\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

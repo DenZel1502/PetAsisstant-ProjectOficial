@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7xk5RIxYM1wpGrISSeyUPQ8qhNmYxuw25oPgLbGjCn7SGlYSyq5wCZKbn8AsslSsn+VblQIkyNLnXVHan20AAA==",
+  "dgSpecHash": "hH29rz17oyId1PhH87/9uKaSq7Um5ahJcJiJ1Cz0ZuCup6IRZ1yIa+VzOECQFuiPZCj1nzw7l+fFC53AXR31tA==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.iOS\\PettAssistant.iOS.csproj",
+  "projectFilePath": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.iOS\\PettAssistant.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Denzel\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Denzel\\.nuget\\packages\\xamarin.build.download\\0.11.0\\xamarin.build.download.0.11.0.nupkg.sha512",

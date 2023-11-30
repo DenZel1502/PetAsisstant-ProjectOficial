@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nlptc+NslOIusXUoDFuP/DKNzcdyQTv7i5rWwkA+lfNpl0sY8gyT7y7++K9oe4ZphRzeZJTs9WEkFQdHvmhP+w==",
+  "dgSpecHash": "iA3KhjGjduZe7cgxmKJ+7sy6f/Q5QGts4sfmBB99L0HnwvWuNYDt28/NIvoLEuGGglW95lYVP9og+iebz0Ua7w==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\Proyecto-Tesis\\PettAssitantProject\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\PettAssistant.Android.csproj",
+  "projectFilePath": "D:\\Proyectos\\PetAsisstant-ProjectOficial\\Movil\\PettAssistant\\PettAssistant\\PettAssistant.Android\\PettAssistant.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Denzel\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Denzel\\.nuget\\packages\\xamarin.androidx.activity\\1.4.0.2\\xamarin.androidx.activity.1.4.0.2.nupkg.sha512",
