@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PettAssistant.Views.MenuPage.xaml", "Views/MenuPage.xaml", typeof(global::PettAssistant.Views.PerfilPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PettAssistant.Views.MenuPage.xaml", "Views/MenuPage.xaml", typeof(global::PettAssistant.Views.MenuPage))]
 
 namespace PettAssistant.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MenuPage.xaml")]
-    public partial class PerfilPage : global::Xamarin.Forms.ContentPage {
+    public partial class MenuPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PerfilPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MenuPage));
         }
     }
 }

@@ -1,28 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PettAssistant.Views.MenuPage">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:vm="clr-namespace:PettAssistant.ViewModels"
+             x:Class="PettAssistant.Views.OpcionPage"
+             NavigationPage.HasNavigationBar="False">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
+    <ContentPage.BindingContext>
+        <vm:OpcionViewModel />
+    </ContentPage.BindingContext>
 
-        <Image Source="fondo_2.png" Aspect="AspectFill" Grid.RowSpan="2" />
-
-        <!-- Resto de tu contenido -->
-
-        <StackLayout Grid.Row="1" Margin="0,120,0,10 ">
-
-            <Image Source="pet.png" WidthRequest="200"/>
-
-            <Button Text="Soy Dueño" BackgroundColor="#1BBCB6" TextColor="White" WidthRequest="410" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30"/>
-            <Button Text="Soy Cuidador" BackgroundColor="#D16D79" TextColor="White" WidthRequest="410" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30"/>
-
-
+    <StackLayout>
+        <Image Source="fondo_2.png" Aspect="AspectFill"/>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,-125,9,0">
+            <Image Source="logo.png" WidthRequest="90" HeightRequest="110" />
+            <Label Text="PetAssistant" VerticalOptions="CenterAndExpand" FontSize="40"  FontAttributes="Bold" TextColor="#252F48"/>
         </StackLayout>
-
-    </Grid>
+        <StackLayout Margin="0,35,0,0">
+            <Button Text="Soy Dueño" FontSize="Large" TextTransform="None" BackgroundColor="#1BBCB6" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30" Margin="0,0,0,5" Command="{Binding NavegarPDuenio}"/>
+            <Button Text="Soy Cuidador" FontSize="Large" TextTransform="None" BackgroundColor="#D16D79" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30"/>
+        </StackLayout>
+    </StackLayout>
 
 </ContentPage>

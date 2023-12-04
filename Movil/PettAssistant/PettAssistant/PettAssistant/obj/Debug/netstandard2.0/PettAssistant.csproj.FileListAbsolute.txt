@@ -77,9 +77,10 @@ D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettA
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant\obj\Debug\netstandard2.0\Views\AyudaPage.xaml.g.cs
+D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant\obj\Debug\netstandard2.0\Views\DInicioPage.xaml.g.cs
+D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant\obj\Debug\netstandard2.0\Views\DLoginPage.xaml.g.cs
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant\obj\Debug\netstandard2.0\Views\DuenioPage.xaml.g.cs
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant\obj\Debug\netstandard2.0\Views\HistorialPage.xaml.g.cs
-D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant\obj\Debug\netstandard2.0\Views\InicioPage.xaml.g.cs
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant\obj\Debug\netstandard2.0\Views\MapPage.xaml.g.cs
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs

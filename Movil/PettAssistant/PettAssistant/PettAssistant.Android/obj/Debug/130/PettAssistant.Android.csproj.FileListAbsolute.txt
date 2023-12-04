@@ -1925,7 +1925,6 @@ D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettA
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\perfil.png
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\fondo.png
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\pet.png
-D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\fondo_2.png
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\icon_p1.png
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\icon_p2.png
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\line.png
@@ -1934,6 +1933,10 @@ D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettA
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\icon_p3.png
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\icon_p5.png
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\icon_next.png
+D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\logo.png
+D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\atras.png
+D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\fondo_2.png
+D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\res\drawable\google.png
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\uploadflags.txt
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\resolvedassemblies.hash
 D:\Proyectos\PetAsisstant-ProjectOficial\Movil\PettAssistant\PettAssistant\PettAssistant.Android\obj\Debug\130\android\assets\FormsViewGroup.dll

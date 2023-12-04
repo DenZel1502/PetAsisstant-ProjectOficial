@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PettAssistant.Views.OpcionPage.xaml", "Views/OpcionPage.xaml", typeof(global::PettAssistant.Views.MenuPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PettAssistant.Views.OpcionPage.xaml", "Views/OpcionPage.xaml", typeof(global::PettAssistant.Views.OpcionPage))]
 
 namespace PettAssistant.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\OpcionPage.xaml")]
-    public partial class MenuPage : global::Xamarin.Forms.ContentPage {
+    public partial class OpcionPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MenuPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(OpcionPage));
         }
     }
 }

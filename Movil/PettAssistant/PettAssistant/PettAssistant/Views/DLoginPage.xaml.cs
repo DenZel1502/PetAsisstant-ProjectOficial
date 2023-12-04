@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace PettAssistant.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class InicioPage : ContentPage
+    public partial class DLoginPage : ContentPage
     {
-        public InicioPage()
+        public DLoginPage()
         {
             InitializeComponent();
         }

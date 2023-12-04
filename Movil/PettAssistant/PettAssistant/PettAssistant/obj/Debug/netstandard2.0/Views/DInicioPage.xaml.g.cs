@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PettAssistant.Views.InicioPage.xaml", "Views/InicioPage.xaml", typeof(global::PettAssistant.Views.InicioPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PettAssistant.Views.DInicioPage.xaml", "Views/DInicioPage.xaml", typeof(global::PettAssistant.Views.DInicioPage))]
 
 namespace PettAssistant.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\InicioPage.xaml")]
-    public partial class InicioPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\DInicioPage.xaml")]
+    public partial class DInicioPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(InicioPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DInicioPage));
         }
     }
 }

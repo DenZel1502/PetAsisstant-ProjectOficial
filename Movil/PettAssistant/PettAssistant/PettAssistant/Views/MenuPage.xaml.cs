@@ -11,10 +11,10 @@ using Xamarin.Forms.Xaml;
 
 namespace PettAssistant.Views
 {
-    public partial class PerfilPage : ContentPage
+    public partial class MenuPage : ContentPage
     {
 
-        public PerfilPage()
+        public MenuPage()
         {
             InitializeComponent();
         }
