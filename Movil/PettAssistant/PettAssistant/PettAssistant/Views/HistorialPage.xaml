@@ -4,8 +4,8 @@
              x:Class="PettAssistant.Views.HistorialPage">
     <ContentPage.Content>
         <StackLayout Margin="20,50,15,10">
-            <Label Text="Metodos de pago" FontSize="30" FontAttributes="Bold"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
-            <Label Text="Elige como quieres pagar" FontSize="20" FontAttributes="None"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+            <Label Text="Historial de Cuidados" FontSize="30" FontAttributes="Bold"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
+            <Label Text="Visualiza tus cuidados:" FontSize="20" FontAttributes="None"  LineBreakMode="NoWrap" HorizontalOptions="StartAndExpand"/>
 
             <ScrollView Margin="0,10,0,10">
 

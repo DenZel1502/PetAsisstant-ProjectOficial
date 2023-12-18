@@ -6,10 +6,11 @@ using Xamarin.Forms;
 
 namespace PettAssistant.ViewModels
 {
-    public class MapViewModel:BaseViewModel
+    public class MapViewModel : BaseViewModel
     {
         public Command MapCommand { get; }
-        public MapViewModel() {
+        public MapViewModel()
+        {
             Title = "Mapa";
         }
 

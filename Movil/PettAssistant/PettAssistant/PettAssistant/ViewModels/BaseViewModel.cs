@@ -1,8 +1,10 @@
 ﻿using PettAssistant.Services;
+using PettAssistant.Views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace PettAssistant.ViewModels
@@ -47,5 +49,6 @@ namespace PettAssistant.ViewModels
             changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
         #endregion
+
     }
 }

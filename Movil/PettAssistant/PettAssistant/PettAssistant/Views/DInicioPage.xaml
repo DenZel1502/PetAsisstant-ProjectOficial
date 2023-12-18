@@ -29,8 +29,8 @@
             <Label Text="PetAssistant" VerticalOptions="CenterAndExpand" FontSize="40"  FontAttributes="Bold" TextColor="#252F48"/>
         </StackLayout>
         <StackLayout Margin="0,160,0,0">
-            <Button Text="Iniciar Sesión" FontSize="Large" TextTransform="None" BackgroundColor="#252F48" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30" Command="{Binding DLoginCommand}"/>
-            <Button Text="Registrarse" FontSize="Large" TextTransform="None" BackgroundColor="#1BBCB6" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30"/>
+            <Button Text="Iniciar Sesión" FontSize="Medium" TextTransform="None" BackgroundColor="#252F48" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30" Command="{Binding DLoginCommand}"/>
+            <Button Text="Registrarse" FontSize="Medium" TextTransform="None" BackgroundColor="#1BBCB6" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30" Command="{Binding DRegisterCommand}" />
         </StackLayout>
         <StackLayout VerticalOptions="EndAndExpand" Margin="20,0,20,40">
             <Label Text="“Tu mascota en buenas manos, en cualquier momento y lugar”"  HorizontalOptions="Center" FontSize="20" FontAttributes="Italic" HorizontalTextAlignment="Center"/>

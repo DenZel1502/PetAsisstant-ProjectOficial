@@ -16,8 +16,8 @@
             <Label Text="PetAssistant" VerticalOptions="CenterAndExpand" FontSize="40"  FontAttributes="Bold" TextColor="#252F48"/>
         </StackLayout>
         <StackLayout Margin="0,35,0,0">
-            <Button Text="Soy Dueño" FontSize="Large" TextTransform="None" BackgroundColor="#1BBCB6" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30" Margin="0,0,0,5" Command="{Binding NavegarPDuenio}"/>
-            <Button Text="Soy Cuidador" FontSize="Large" TextTransform="None" BackgroundColor="#D16D79" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30"/>
+            <Button Text="Soy Dueño" FontSize="Medium" TextTransform="None" BackgroundColor="#1BBCB6" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30" Margin="0,0,0,5" Command="{Binding NavegarPDuenio}"/>
+            <Button Text="Soy Cuidador" FontSize="Medium" TextTransform="None" BackgroundColor="#D16D79" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30"/>
         </StackLayout>
     </StackLayout>
 

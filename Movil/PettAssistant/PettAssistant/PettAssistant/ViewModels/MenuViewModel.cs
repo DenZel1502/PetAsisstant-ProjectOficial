@@ -13,6 +13,7 @@ namespace PettAssistant.ViewModels
         public ICommand NavegarMPago { get; set; }
         public ICommand NavegarMCuenta { get; set; }
         public ICommand NavegarHistorial { get; set; }
+        public ICommand CerrarSesionCommand { get; set; }
         public MenuViewModel()
         {
             Title = "Menú";
@@ -22,7 +23,7 @@ namespace PettAssistant.ViewModels
             NavegarHistorial = new Command(Historial);
 
         }
-        
+
         private void PMascota()
         {
             Application.Current.MainPage.Navigation.PushAsync(new PMascotaPage());

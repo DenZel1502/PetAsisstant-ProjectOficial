@@ -37,7 +37,7 @@
                     <!--Perfil de Mascota-->
                     <StackLayout Orientation="Horizontal" Padding="0,10,0,10" Margin="5,5,2,10" >
                         <Image Source="icon_p2" Aspect="AspectFit" HeightRequest="50" Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
-                        <Label Text="Perfil de mascota" TextColor="#808080" FontSize="25" LineBreakMode="NoWrap" Padding="0,10,10,0" Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="Mascota" TextColor="#808080" FontSize="20" LineBreakMode="NoWrap" Padding="0,10,10,0" Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
                         <ImageButton Source="icon_next" BackgroundColor="Transparent" Margin="10,0,35,0" HorizontalOptions="End" Command= "{Binding NavegarPMascota}" />
                     </StackLayout>
 
@@ -46,7 +46,7 @@
                     <!--Metodo de pago-->
                     <StackLayout Orientation="Horizontal" Padding="0,10,0,10" Margin="5,10,2,10" >
                         <Image Source="icon_p3" Aspect="AspectFit" HeightRequest="44"  Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
-                        <Label Text="Metodo de pago" TextColor="#808080" FontSize="25" LineBreakMode="NoWrap"  Padding="0,6,10,0" Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="Metodo de pago" TextColor="#808080" FontSize="20" LineBreakMode="NoWrap"  Padding="0,6,10,0" Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
                         <ImageButton Source="icon_next" Aspect="AspectFit" BackgroundColor="Transparent" Margin="10,0,35,0" HorizontalOptions="End" Command= "{Binding NavegarMPago}" />
                     </StackLayout>
 
@@ -55,7 +55,7 @@
                     <!--Mi cuenta-->
                     <StackLayout Orientation="Horizontal" Padding="0,10,0,10" Margin="5,10,2,10" >
                         <Image Source="icon_p4" Aspect="AspectFit" HeightRequest="42"  Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
-                        <Label Text="Mi cuenta" TextColor="#808080" FontSize="25" LineBreakMode="NoWrap"  Padding="0,7,10,0" Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="Mi cuenta" TextColor="#808080" FontSize="20" LineBreakMode="NoWrap"  Padding="0,7,10,0" Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
                         <ImageButton Source="icon_next" Aspect="AspectFit" BackgroundColor="Transparent" Margin="10,0,35,0" HorizontalOptions="End" Command= "{Binding NavegarMCuenta}" />
                     </StackLayout>
 
@@ -64,7 +64,7 @@
                     <!--Historial-->
                     <StackLayout Orientation="Horizontal" Padding="0,10,0,10" Margin="5,10,2,10" >
                         <Image Source="icon_p5" Aspect="AspectFit" HeightRequest="40" Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
-                        <Label Text="Historial" TextColor="#808080" FontSize="25" LineBreakMode="NoWrap" Padding="0,7,10,0" Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="Historial" TextColor="#808080" FontSize="20" LineBreakMode="NoWrap" Padding="0,7,10,0" Margin="20,0,0,0" HorizontalOptions="StartAndExpand"/>
                         <ImageButton Source="icon_next" Aspect="AspectFit" BackgroundColor="Transparent" Margin="10,0,35,0" HorizontalOptions="End" Command= "{Binding NavegarHistorial}" />
                     </StackLayout>
 
@@ -74,7 +74,7 @@
 
             <!--Boton de Cerrar Sesión-->
             <StackLayout VerticalOptions="EndAndExpand" Margin="5,5,5,20">
-                <Button Text="Cerrar sesión" BackgroundColor="#252F48" FontSize="19" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="15" />
+                <Button Text="Cerrar sesión" BackgroundColor="#252F48" FontSize="19" TextColor="White" WidthRequest="370" HeightRequest="55" HorizontalOptions="Center" CornerRadius="15" Command="{Binding CerrarSesionCommand}" />
             </StackLayout>
 
         </StackLayout>

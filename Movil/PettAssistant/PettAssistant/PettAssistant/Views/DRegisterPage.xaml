@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:vm="clr-namespace:PettAssistant.ViewModels"
+             x:Class="PettAssistant.Views.DRegisterPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.BindingContext>
+        <vm:DRegisterViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout >
+
+            <Grid Margin="0,0,0,-23" >
+                <ImageButton
+                    Source="atras.png"
+                    BackgroundColor="Transparent"
+                    VerticalOptions="Start"
+                    WidthRequest="40"
+                    HeightRequest="30"
+                    HorizontalOptions="Start"
+                    Margin="10"
+                    Command="{Binding VolverCommand}"
+            />      
+            </Grid>
+            
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" >
+                <Image Source="logo.png" WidthRequest="81" HeightRequest="100" Margin="0,0,0,-56"/>
+            </StackLayout>
+
+            <Frame BackgroundColor="#1BBCB6" CornerRadius="40" HeightRequest="620" Padding="0,5,0,10" Margin="10,0,10,0" >
+                
+                <StackLayout>
+                    <Image Source="logo.png" WidthRequest="60" HeightRequest="100" Margin="0,-55,0,0"/>
+                    
+                    <Label Text="Registrate" HorizontalOptions="CenterAndExpand" Margin="0,-10,0,0" FontSize="35"  FontAttributes="Bold" TextColor="#252F48"/>
+                    
+                    <!-- Imputs de Register -->
+                    <StackLayout Margin="20,20,20,0" Padding="0,-15,0,0">
+                        <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False" Padding="10,5,10,10" Margin="0,0,0,0">
+                            <Entry Placeholder="Email:" Background="Transparent"/>
+                        </Frame>
+                        <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False" Padding="10,5,10,10" Margin="100,5,0,0">
+                            <Entry Placeholder="Telefono:" Keyboard="Numeric" Background="Transparent"/>
+                        </Frame>
+                        <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False" Padding="10,5,10,10" Margin="0,5,0,0">
+                            <Entry Placeholder="Apellido:" Background="Transparent"/>
+                        </Frame>
+                        <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False" Padding="10,5,10,10" Margin="0,5,0,0">
+                            <Entry Placeholder="Distrito:" Background="Transparent"/>
+                        </Frame>
+
+                        <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False" Padding="10,5,10,10" Margin="0,30,0,0">
+                            <Entry Placeholder="Contraseña:" Background="Transparent"/>
+                        </Frame>
+                        <Frame BackgroundColor="White" CornerRadius="20" BorderColor="#1BBCB6" HasShadow="False" Padding="10,5,10,10" Margin="0,5,0,0">
+                            <Entry Placeholder="Confirmar Contraseña:" Background="Transparent"/>
+                        </Frame>
+
+                    </StackLayout>
+
+                    <!-- Boton de Register -->
+                    <StackLayout Margin="0,10,0,20" VerticalOptions="EndAndExpand">
+                        <Button Text="Registrar" FontSize="Medium" TextTransform="None" BackgroundColor="#252F48" TextColor="White" WidthRequest="310" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30" Command="{Binding DLoginCommand}"/>
+                    </StackLayout>
+   
+                </StackLayout>
+            </Frame>
+            
+            <StackLayout Margin="0,10,0,0">
+                <Button  Text="Iniciar Sesión" FontSize="Medium" TextTransform="None" BackgroundColor="WhiteSmoke" TextColor="#252F48" WidthRequest="200" HeightRequest="55" HorizontalOptions="Center" CornerRadius="30" Command="{Binding DLoginCommand}"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

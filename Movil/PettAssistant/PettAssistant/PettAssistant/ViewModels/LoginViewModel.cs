@@ -9,6 +9,6 @@ namespace PettAssistant.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
-        
+
     }
 }
